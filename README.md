@@ -78,4 +78,5 @@ cd espnet
 pip3 install --editable ./
 cd .. 
 pip3 install espnet_model_zoo
+python3 ./download_models.py
 ```
