@@ -48,6 +48,11 @@ cd ..
 pip3 install espnet_model_zoo
 ```
 
+##### Jupyterでの実行前に必要なモデルをダウンロードしておく
+```
+python3 ./download_models.py
+```
+
 ##### カレントディレクトリで Jupyter Notebook を立ち上げる
 ```
 jupyter notebook ./
