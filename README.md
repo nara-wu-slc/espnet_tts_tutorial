@@ -53,6 +53,16 @@ pip3 install espnet_model_zoo
 python3 ./download_models.py
 ```
 
+##### Jupyterで使うPython環境が仮想環境化になっているかどうか確認する
+```
+jupyter kernelspec list
+```
+結果は以下のようになるはず（`/path/to/dir` は作業ディレクトリの名前に読み替えて確認すること）
+```
+Available kernels:
+  python3    /path/to/dir/espnet/espnet_tts_tutorial/.venv/share/jupyter/kernels/python3
+```
+
 ##### カレントディレクトリで Jupyter Notebook を立ち上げる
 ```
 jupyter notebook ./
