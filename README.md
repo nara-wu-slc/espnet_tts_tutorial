@@ -55,3 +55,22 @@ jupyter notebook ./
 
 ##### ブラウザで Jupyter Notebook に接続し、tts_test.ipynb を開く（下の画像参照）
 <img width="345" alt="jupyter launch" src="https://github.com/user-attachments/assets/6ea666dd-6480-4dfe-97cf-a2a6481c35ed">
+
+
+#### インストールを一発で全部実行するためのコマンド群
+※作業ディレクトリへの移動後に実行すること
+```
+git clone https://github.com/nara-wu-slc/espnet_tts_tutorial.git
+cd espnet_tts_tutorial
+python3 -m venv .venv
+source .venv/bin/activate
+source /slc/share/dot.zshrc.slc
+pip3 install torch torchaudio --index-url https://download.pytorch.org/whl/cu124
+pip3 install wheel
+pip3 install jupyter ipykernel
+git clone https://github.com/espnet/espnet.git
+cd espnet
+pip3 install --editable ./
+cd .. 
+pip3 install espnet_model_zoo
+```
