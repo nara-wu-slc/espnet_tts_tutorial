@@ -48,4 +48,6 @@ ipython3 kernel install --user --name=.venv
 # カレントディレクトリで Jupyter Notebook を立ち上げる
 jupyter notebook ./
 ```
+
+tts_test.ipynb を開く
 <img width="345" alt="jupyter launch" src="https://github.com/user-attachments/assets/6ea666dd-6480-4dfe-97cf-a2a6481c35ed">
