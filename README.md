@@ -24,6 +24,11 @@ source /slc/share/dot.zshrc.slc
 pip3 install torch torchaudio --index-url https://download.pytorch.org/whl/cu124
 ```
 
+```
+# その他必要なライブラリをインストール
+pip3 install wheel
+pip3 install notebook ipykernel
+```
 
 ```
 # espnetをGitHubから取得してインストール
@@ -31,13 +36,7 @@ git clone https://github.com/espnet/espnet.git
 cd espnet
 pip3 install --editable ./
 cd ..
-```
-
-```
-# その他必要なライブラリをインストール
-pip3 install wheel
 pip3 install espnet_model_zoo
-pip3 install notebook ipykernel
 ```
 
 ```
