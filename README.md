@@ -49,5 +49,7 @@ ipython3 kernel install --user --name=.venv
 jupyter notebook ./
 ```
 
-tts_test.ipynb を開く
+```
+ブラウザで Jupyter Notebook に接続し、tts_test.ipynb を開く（下の画像参照）
+```
 <img width="345" alt="jupyter launch" src="https://github.com/user-attachments/assets/6ea666dd-6480-4dfe-97cf-a2a6481c35ed">
