@@ -53,17 +53,3 @@ jupyter notebook ./
 # ブラウザで Jupyter Notebook に接続し、tts_test.ipynb を開く（下の画像参照）
 ```
 <img width="345" alt="jupyter launch" src="https://github.com/user-attachments/assets/6ea666dd-6480-4dfe-97cf-a2a6481c35ed">
-
-```
-# 右上の Logout の下あたりにある、現在使っているカーネルが .venv になっているか確認する（下の画像参照）
-```
-<img width="258" alt="jupyter kernel" src="https://github.com/user-attachments/assets/bc9c5c1a-ac57-408b-8c08-c663a896b61c">
-
-```
-# もし違っていたら、Kernel > Change Kernel から .venv を選ぶ（下の画像参照）
-```
-<img width="719" alt="change kernel" src="https://github.com/user-attachments/assets/294c5036-b0ae-4dd1-aa73-314d2c8b9a0f">
-
-```
-# 
-```
