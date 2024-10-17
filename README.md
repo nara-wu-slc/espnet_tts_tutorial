@@ -74,8 +74,10 @@ jupyter notebook ./
 ##### Jupyter Notebook上で実行
 - Cell > Run all で実行
 <img width="1159" alt="Run all" src="https://github.com/user-attachments/assets/a5a4d106-2fb3-4d61-8126-5c808c250a7a">
+
 - 入力欄が表示されたら適当な英文を入れる
 <img width="726" alt="input" src="https://github.com/user-attachments/assets/d858677f-5f84-4ad1-9b0a-afb977322693">
+
 - 合成音声がNotebook上で再生できる（whileでループしているので何度でも試せる）
 <img width="387" alt="output" src="https://github.com/user-attachments/assets/28785447-6934-41b1-b0df-4a37ffece62e">
 
